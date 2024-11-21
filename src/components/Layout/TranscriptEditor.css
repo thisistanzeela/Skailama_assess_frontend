@@ -1,0 +1,115 @@
+/* Container */
+.transcript-editor-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .header h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Speaker title */
+  .speaker-title {
+    font-weight: bold;
+    color: #6b46c1;
+    margin-bottom: 10px;
+  }
+  
+  /* Transcript view */
+  .transcript-view {
+    margin-top: 10px;
+  }
+  
+  .transcript-text {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    line-height: 1.6;
+    font-size: 14px;
+    white-space: pre-wrap;
+  }
+  
+  /* Edit button */
+  .edit-button {
+    background: #6b46c1;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .edit-button:hover {
+    background: #553099;
+  }
+  
+  /* Transcript editing */
+  .edit-transcript-textarea {
+    width: 95%;
+    height: 200px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+    resize: none;
+    background: #f9f9f9;
+  }
+  
+  /* Buttons group */
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .discard-button,
+  .save-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .discard-button {
+    background: #dc3545;
+    color: #fff;
+  }
+  
+  .discard-button:hover {
+    background: #a82c35;
+  }
+  
+  .save-button {
+    background: #6b46c1;
+    color: #fff;
+  }
+  
+  .save-button:hover {
+    background: #553099;
+  }
+  
